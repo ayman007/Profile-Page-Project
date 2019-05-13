@@ -1,0 +1,211 @@
+body{
+
+}
+.container{
+    width: 1170px;
+    margin:auto;
+    
+}
+.clearfix{
+    clear: both;
+}
+.header .slider{
+    background-image:url("../images/abotreka.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+}
+.header .slider .intro{
+    padding-top: 200px;
+    text-align: center;
+    color: #FFF;
+}
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 700px;  
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+    padding: 5px 0;
+}
+.header .slider .intro button{
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    padding: 10px 30px;
+    color: #FFF; 
+}
+.header .navbar{
+    background-color: #252F31;
+    color: #E6EBEC;
+    overflow: hidden;
+}
+.header .navbar h2{
+    float: left;    
+}
+.header .navbar h2 span{
+    color: #31C570;
+}
+
+.header .navbar ul{
+    list-style:none;
+    padding-left:0;
+    overflow:hidden;
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+     padding:10px;
+}
+.header .navbar ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+    color: #31C570;
+}
+
+.features{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.features .feat{
+    float: left;
+    width: 33.33333%;
+    height:130px; 
+}
+.features .feat h2{
+    color: #727679;
+}
+.features .feat p{
+    color: #A3A3A3;
+    line-height: 1.7;
+}
+.about-me{
+    background-color: #F2F2F2;
+    overflow: hidden;
+
+}
+.about-me .image{
+    float: left;
+    width: 40%;
+}
+.about-me .image img{
+    width: 100%;
+
+}
+.about-me .info{
+    float: left;
+    width: 60%;
+}
+
+.about-me .info .hobbies{
+    
+    overflow: hidden;
+    margin: 20px;
+}
+.about-me .info .hobbies > div{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+.my-skills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-skills .skills, .my-sills .progress{
+    width: 50%;
+    float: left;
+}
+.resume{
+background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.my-education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-education .main, .my-education .exp{
+    width: 50%;
+    float: left;
+}
+.testimonials{
+background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.portfolio{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.portfolio .our-work{
+    overflow: hidden;    
+
+}
+.portfolio .our-work > div{
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
+}
+.portfolio .our-work >div img{
+    width: 92%;
+    margin: 10px;
+}
+.contact{
+    background-color: #252F31;
+    overflow: hidden;
+}
+.contact h2{
+    color: #FFF;
+}
+.contact p{
+    color: #6A6E71;
+}
+.contact .info , .contact .form{
+    width: 50%;
+    float: left;
+}
+.footer{
+    background-color: #191E22;
+    color: #6A6E71;
+    padding: 20px 0 ;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
